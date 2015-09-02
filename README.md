@@ -12,7 +12,19 @@ eg:
 debug("~print this line~1~", "~print this line~2~", "~print this line~3~", console.log, 17, 16, 15, "--3", add, "--1", funct_divide_by_3, console.log)
 
 OUTPUT:
+
 ~print this line~1~
+
 ~print this line~2~
+
 ~print this line~3~
+
 16
+
+debug(funct1, funct2, funct3, funct4);
+
+Execute funct1; Execute funct2 while passing return value of funct1 as arguments; Execute funct3 while passing return value of funct2 as arguments; Execute funct4 while passing return value of funct3 as arguments;
+
+debug(funct1, "--0", funct2, "--0" funct3, "--0", funct4)
+
+Execute funct1 with no arguments; Execute funct2 with no arguments; Execute funct3 with no arguments; Execute funct4 with no arguments;
