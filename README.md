@@ -5,7 +5,7 @@ Debug/Test javascript code with one line debug() statements with infinite possib
 
 i.e
 
-debug ( arg11, arg12..., (optional arg for funct 1 indicating no. of arguments it requires, default is 1)--(NATURAL NO.), funct11, (funct12 follows funct 11 if output of funct11 has to be passed as argument for funct12, and so on till (n) functions; funct12..funct1n are optional, each optionally followed by an argument indicating no. of arguments they expect)funct12..., param21, param22..., func21... );
+debug ( arg11, arg12..., (optional arg for funct 1 indicating no. of arguments it requires, default is 1)--(NATURAL NO.), funct11, (funct12 follows funct 11 if output of funct11 has to be passed as argument for funct12, and so on till (n) functions; funct12..funct1n are optional, each optionally followed by an argument indicating no. of arguments they expect)funct12..., arg21, arg22..., func21... );
 
 eg:
 
