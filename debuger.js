@@ -1,6 +1,6 @@
 /**
 *    @cubohan
-*    circa2015
+*    circa2016
 *    
 *    # javascript-debugger-tester
 *    Debug/Test javascript code with one line debug() statements with infinite possible combinations of arguments 
